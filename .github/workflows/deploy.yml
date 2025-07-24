@@ -1,4 +1,4 @@
-name: Deploy to Alibaba ECS
+name: Deploy to AWS ECS Kayza 
 
 on:
   push:
