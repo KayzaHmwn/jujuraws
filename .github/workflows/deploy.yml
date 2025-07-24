@@ -21,7 +21,7 @@ jobs:
     - name: Deploy to ECS
       run: |
         ssh -o StrictHostKeyChecking=no ubuntu@52.64.237.211 << 'EOF'
-          cd /var/www/mywebsite/awsjir
+          cd /var/www/mywebsite/awsjir/jujuraws
           sudo git pull origin main
           # Restart Nginx or any other service if needed
           sudo systemctl restart nginx
